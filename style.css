@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  header {
+    background-color: #0a192f;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  nav a {
+    color: #64ffda;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  .project, .skills li, .experience li, .education li {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  footer {
+    text-align: center;
+    padding: 2rem;
+    background: #0a192f;
+    color: white;
+    margin-top: 2rem;
+  }
+  .contact a {
+    color: #64ffda;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  .skills ul, .experience ul, .education ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .download-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .download-button a {
+    background-color: #64ffda;
+    color: #0a192f;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  .download-button a:hover {
+    background-color: #52d1bd;
+  }

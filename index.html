@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aminu Usman Boyi | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Aminu Usman Boyi</h1>
+    <p>First-Class Computer Science Graduate | Web & IoT Developer | AI Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate developer who specializes in building smart, scalable, and community-driven solutions using web technologies, IoT platforms, and AI models. My goal is to leverage technology to solve real-life problems and support social progress.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Programming: Python, C++, JavaScript</li>
+      <li>Web Technologies: HTML5, CSS3, React, Firebase</li>
+      <li>IoT: Arduino, ESP8266, Sensor Integration</li>
+      <li>Tools: Git, GitHub, Figma, PyCharm, VS Code</li>
+      <li>Database: MySQL, Firestore</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Fish Pond Monitoring & Control System</h3>
+      <p>Designed an IoT-based system using Arduino and Firebase to monitor water quality and control aeration devices in real time.</p>
+    </div>
+    <div class="project">
+      <h3>CV-Based Personality Prediction System</h3>
+      <p>Developed a front-end for predicting personality traits using AI models trained on CV datasets.</p>
+    </div>
+    <div class="project">
+      <h3>BYDA Website</h3>
+      <p>Built the official site for Bichi Youth Development Alliance (BYDA), a youth NGO focused on combating drug abuse and empowering local communities.</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>President, NACOS – Coordinated student tech events and academic support (2023–2024)</li>
+      <li>Class Representative – Facilitated communication between students and faculty (2021–2024)</li>
+      <li>SIWES Trainee, FCE (T) Bichi – Assisted with campus IT systems and student labs (2023)</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>B.Sc. Computer Science, Sule Lamido University – First Class Honours (2019–2024)</li>
+      <li>IJMB Certificate, RMK College of Basic Studies, Kano (2015–2016)</li>
+      <li>SSCE, Government Senior Secondary School Gabasawa (2008–2014)</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p class="contact">
+      <a href="mailto:aminuusmanboyi5@gmail.com">Email</a> |
+      <a href="https://github.com/AlameenCsc" target="_blank">GitHub</a> |
+      <a href="https://linkedin.com/in/al-ameen-usman-boyi-7a755430a" target="_blank">LinkedIn</a>
+    </p>
+  </section>
+
+  <div class="download-button">
+    <a href="./myCV_updated.pdf" download>Download My Resume (PDF)</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Aminu Usman Boyi. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Smooth scroll for navigation links
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+</body>
+</html>
